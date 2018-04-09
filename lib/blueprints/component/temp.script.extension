@@ -1,6 +1,6 @@
 export default {
   name: '{{name | kebabCase}}',
-  components: {}, 
+  components: {},
   props: [],
   data () {
     return {
@@ -9,11 +9,34 @@ export default {
   },
   computed: {
 
+  }
+  methods: {
+
+  },
+
+  // life cycle
+  beforeCreate () {
+
+  },
+  created () {
+
+  },
+  beforeMount () {
+
   },
   mounted () {
 
   },
-  methods: {
+  beforeUpdate () {
+
+  },
+  updated () {
+
+  },
+  beforeDestroy () {
+
+  },
+  destroyed () {
 
   }
 }
