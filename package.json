@@ -17,6 +17,9 @@
   },
   "author": "DDDrop",
   "license": "ISC",
+  "bin": {
+    "vcg": "dist/vcg.js"
+  },
   "bugs": {
     "url": "https://github.com/ParaDevil/vue-component-generator/issues"
   },
